@@ -45,8 +45,14 @@ export const metadata: Metadata = {
 
   creator: "Skyrise Engineering (Pvt) Ltd",
 
+  verification: {
+    google:
+      "ua6G21YDbqN6Fsr5vgytZvorAg2fSlllwsJISe6FWYA",
+  },
+
   openGraph: {
     title: "Skyrise Engineering (Pvt) Ltd",
+
     description:
       "Professional Civil Engineering, Construction, Property Development and Land Reclamation Solutions in Sri Lanka.",
 
