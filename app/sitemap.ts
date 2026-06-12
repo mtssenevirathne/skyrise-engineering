@@ -3,37 +3,37 @@ import { MetadataRoute } from "next";
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
-      url: "https://skyrise-engineering.vercel.app",
+      url: "https://skyriseengineering.lk",
       lastModified: new Date(),
     },
 
     {
-      url: "https://skyrise-engineering.vercel.app/projects",
+      url: "https://skyriseengineering.lk/projects",
       lastModified: new Date(),
     },
 
     {
-      url: "https://skyrise-engineering.vercel.app/services/civil-engineering",
+      url: "https://skyriseengineering.lk/services/civil-engineering",
       lastModified: new Date(),
     },
 
     {
-      url: "https://skyrise-engineering.vercel.app/services/construction",
+      url: "https://skyriseengineering.lk/services/construction",
       lastModified: new Date(),
     },
 
     {
-      url: "https://skyrise-engineering.vercel.app/services/electrical-electronic",
+      url: "https://skyriseengineering.lk/services/electrical-electronic",
       lastModified: new Date(),
     },
 
     {
-      url: "https://skyrise-engineering.vercel.app/services/property-development",
+      url: "https://skyriseengineering.lk/services/property-development",
       lastModified: new Date(),
     },
 
     {
-      url: "https://skyrise-engineering.vercel.app/services/land-reclamation",
+      url: "https://skyriseengineering.lk/services/land-reclamation",
       lastModified: new Date(),
     },
   ];
