@@ -93,6 +93,33 @@ export const metadata: Metadata = {
   },
 };
 
+const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "Skyrise Engineering (Pvt) Ltd",
+  url: "https://www.skyriseengineering.lk",
+  logo:
+    "https://www.skyriseengineering.lk/logobar.jpeg",
+
+  description:
+    "Professional Civil Engineering, Construction, Property Development and Land Reclamation Solutions in Sri Lanka.",
+
+  sameAs: [],
+
+  contactPoint: {
+    "@type": "ContactPoint",
+    telephone: "+94-777311795",
+    contactType: "customer service",
+    areaServed: "LK",
+    availableLanguage: ["English"],
+  },
+
+  address: {
+    "@type": "PostalAddress",
+    addressCountry: "LK",
+  },
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -105,6 +132,18 @@ export default function RootLayout({
     >
       <body className="min-h-screen bg-slate-950 text-white antialiased">
         {children}
+
+        {/* Organization Schema */}
+        <Script
+          id="organization-schema"
+          type="application/ld+json"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(
+              organizationSchema
+            ),
+          }}
+        />
 
         {/* Google Analytics */}
         <Script
