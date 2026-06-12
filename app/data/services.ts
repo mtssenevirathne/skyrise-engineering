@@ -24,7 +24,7 @@ export const services: Record<string, Service> = {
 
   construction: {
     title: "Construction Works",
-    image: "/services/construction-new.jpg",
+    image: "/services/construtions-new.jpg",
     description:
       "Residential, commercial and industrial construction projects delivered with quality and precision.",
 
