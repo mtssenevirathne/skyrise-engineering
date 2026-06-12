@@ -8,7 +8,7 @@ export interface Service {
 export const services: Record<string, Service> = {
   "civil-engineering": {
     title: "Civil Engineering Works",
-    image: "/Services/civil-new.jpg",
+    image: "/services/civil-new.jpg",
     description:
       "Professional civil engineering solutions including roads, drainage systems, foundations, structural design and infrastructure development.",
 
@@ -24,7 +24,7 @@ export const services: Record<string, Service> = {
 
   construction: {
     title: "Construction Works",
-    image: "/Services/construtions-new.jpg",
+    image: "/services/construction-new.jpg",
     description:
       "Residential, commercial and industrial construction projects delivered with quality and precision.",
 
@@ -40,7 +40,7 @@ export const services: Record<string, Service> = {
 
   "electrical-electronic": {
     title: "Electrical & Electronic Engineering",
-    image: "/Services/electrical.jpg",
+    image: "/services/electrical.jpg",
     description:
       "Electrical installations, automation systems, CCTV solutions and power distribution services for residential, commercial and industrial sectors.",
 
@@ -56,7 +56,7 @@ export const services: Record<string, Service> = {
 
   "property-development": {
     title: "Property Development & Sales",
-    image: "/Services/property-new.jpg",
+    image: "/services/property-new.jpg",
     description:
       "Property development solutions, land sales and investment opportunities designed to maximize value and long-term growth.",
 
@@ -72,7 +72,7 @@ export const services: Record<string, Service> = {
 
   "land-reclamation": {
     title: "Land Reclamation Works",
-    image: "/Services/land-new.jpg",
+    image: "/services/land-new.jpg",
     description:
       "Land filling, site preparation, excavation and development solutions for residential, commercial and industrial projects.",
 
