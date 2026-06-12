@@ -13,18 +13,28 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Skyrise Engineering (Pvt) Ltd",
+  metadataBase: new URL(
+    "https://skyrise-engineering.vercel.app"
+  ),
+
+  title: {
+    default: "Skyrise Engineering (Pvt) Ltd",
+    template: "%s | Skyrise Engineering",
+  },
+
   description:
     "Professional Civil Engineering, Construction, Property Development and Land Reclamation Solutions in Sri Lanka.",
 
   keywords: [
     "Skyrise Engineering",
-    "Civil Engineering",
+    "Civil Engineering Sri Lanka",
     "Construction Company Sri Lanka",
     "Property Development",
     "Land Reclamation",
     "Engineering Solutions",
     "Infrastructure Development",
+    "Civil Contractors Sri Lanka",
+    "Engineering Company Sri Lanka",
   ],
 
   authors: [
@@ -39,13 +49,40 @@ export const metadata: Metadata = {
     title: "Skyrise Engineering (Pvt) Ltd",
     description:
       "Professional Civil Engineering, Construction, Property Development and Land Reclamation Solutions in Sri Lanka.",
-    type: "website",
+
+    url: "https://skyrise-engineering.vercel.app",
+
     siteName: "Skyrise Engineering",
+
     locale: "en_US",
+
+    type: "website",
+
+    images: [
+      {
+        url: "/logobar.jpeg",
+        width: 1200,
+        height: 630,
+        alt: "Skyrise Engineering",
+      },
+    ],
+  },
+
+  twitter: {
+    card: "summary_large_image",
+
+    title: "Skyrise Engineering (Pvt) Ltd",
+
+    description:
+      "Professional Civil Engineering, Construction, Property Development and Land Reclamation Solutions in Sri Lanka.",
+
+    images: ["/logobar.jpeg"],
   },
 
   icons: {
     icon: "/logobar.jpeg",
+    shortcut: "/logobar.jpeg",
+    apple: "/logobar.jpeg",
   },
 };
 
@@ -57,9 +94,9 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${geistSans.variable} ${geistMono.variable}`}
     >
-      <body className="min-h-screen bg-slate-950 text-white">
+      <body className="min-h-screen bg-slate-950 text-white antialiased">
         {children}
       </body>
     </html>
