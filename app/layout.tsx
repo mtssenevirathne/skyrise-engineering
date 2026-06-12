@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL(
-    "https://skyrise-engineering.vercel.app"
+    "https://www.skyriseengineering.lk"
   ),
 
   title: {
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
     description:
       "Professional Civil Engineering, Construction, Property Development and Land Reclamation Solutions in Sri Lanka.",
 
-    url: "https://skyrise-engineering.vercel.app",
+    url: "https://www.skyriseengineering.lk",
 
     siteName: "Skyrise Engineering",
 
