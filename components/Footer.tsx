@@ -163,7 +163,7 @@ export default function Footer() {
                     </p>
 
                     <p className="text-gray-400 group-hover:text-orange-500 transition break-all">
-                      info@skyriseengineering.com
+                      skyrise.eng.pvt.ltd@gmail.com
                     </p>
 
                   </div>
