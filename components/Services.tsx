@@ -26,7 +26,7 @@ const services = [
     description:
       "Residential, commercial and industrial construction projects delivered with quality and precision.",
     icon: Hammer,
-    image: "/services/constrution-new.jpg",
+    image: "/services/construtions-new.jpg",
   },
   {
     title: "Electrical & Electronic Engineering",
