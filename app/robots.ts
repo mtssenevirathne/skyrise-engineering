@@ -8,6 +8,6 @@ export default function robots(): MetadataRoute.Robots {
     },
 
     sitemap:
-      "https://skyrise-engineering.vercel.app/sitemap.xml",
+      "https://skyriseengineering.lk/sitemap.xml",
   };
 }
