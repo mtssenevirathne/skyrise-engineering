@@ -208,7 +208,7 @@ export default function Contact() {
 
                 {/* WhatsApp Office */}
                 <a
-                  href="https://wa.me/94777311795"
+                  href="https://wa.me/94716715787"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-between bg-green-500/10 border border-green-500/20 rounded-2xl px-5 py-5 hover:bg-green-500/20 transition"
@@ -220,7 +220,7 @@ export default function Contact() {
                     </h4>
 
                     <p className="text-green-400 text-sm">
-                      +94 777 311 795
+                      +94 71 671 5787
                     </p>
 
                   </div>
@@ -233,7 +233,7 @@ export default function Contact() {
 
                 {/* Call Now */}
                 <a
-                  href="tel:789942547"
+                  href="tel:0789942547"
                   className="flex items-center justify-between bg-orange-500/10 border border-orange-500/20 rounded-2xl px-5 py-5 hover:bg-orange-500/20 transition"
                 >
                   <div>
@@ -243,7 +243,7 @@ export default function Contact() {
                     </h4>
 
                     <p className="text-orange-400 text-sm">
-                      (78) 994 2547
+                      (078) 994 2547
                     </p>
 
                   </div>

@@ -30,6 +30,7 @@ export default function Navbar() {
     { name: "Leadership", href: "/#leadership" },
     
     
+    
   ];
 
   return (
@@ -85,7 +86,7 @@ export default function Navbar() {
 
           {/* Desktop WhatsApp */}
           <a
-            href="https://wa.me/94777311795"
+            href="https://wa.me/94716715787"
             target="_blank"
             rel="noopener noreferrer"
             className="hidden lg:flex items-center gap-3 bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-full font-semibold transition"

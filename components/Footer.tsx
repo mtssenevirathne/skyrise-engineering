@@ -113,7 +113,7 @@ export default function Footer() {
               <div className="space-y-6">
 
                 <a
-                  href="https://wa.me/94777311795"
+                  href="https://wa.me/+94716715787"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-start gap-4 group"
@@ -135,7 +135,7 @@ export default function Footer() {
                     </p>
 
                     <p className="text-gray-400 group-hover:text-green-500 transition">
-                      +94 777 311 795
+                      +94 71 671 5787
                     </p>
 
                   </div>
@@ -143,7 +143,7 @@ export default function Footer() {
                 </a>
 
                 <a
-                  href="mailto:info@skyriseengineering.com"
+                  href="mailto:skyrise.eng.pvt.ltd@gmail.com"
                   className="flex items-start gap-4 group"
                 >
 

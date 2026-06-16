@@ -179,7 +179,7 @@ export default async function ServicePage({
 
         {/* WhatsApp Button */}
         <a
-          href="https://wa.me/94777311795"
+          href="https://wa.me/94716715787"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-3 bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-full font-semibold transition-all duration-300 hover:scale-105 shadow-lg shadow-green-500/20"

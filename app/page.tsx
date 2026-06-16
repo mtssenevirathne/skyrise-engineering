@@ -34,8 +34,7 @@ export default function Home() {
       <FadeUp>
         <LeaderShip />
       </FadeUp>
-
-      
+           
 
       <Footer />
     </>
