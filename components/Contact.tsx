@@ -183,7 +183,7 @@ export default function Contact() {
 
                 {/* WhatsApp Director */}
                 <a
-                  href="https://wa.me/13368443521"
+                  href="https://wa.me/94777311795"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-between bg-green-500/10 border border-green-500/20 rounded-2xl px-5 py-5 hover:bg-green-500/20 transition"
@@ -195,7 +195,7 @@ export default function Contact() {
                     </h4>
 
                     <p className="text-green-400 text-sm">
-                      +1 (336) 844-3521
+                      +94 77 731 1795
                     </p>
 
                   </div>
